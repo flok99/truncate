@@ -11,7 +11,7 @@
 
 #include "error.h"
 
-off64_t get_file_size(const char *const file_name)
+off_t get_file_size(const char *const file_name)
 {
 	struct stat st;
 
