@@ -1,4 +1,4 @@
-VERSION=0.8
+VERSION=0.9
 CFLAGS=-O2 -Wall -Wextra -DVERSION=\"$(VERSION)\"
 OBJS=truncate.o error.o
 
